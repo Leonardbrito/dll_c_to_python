@@ -1,4 +1,4 @@
-from ctypes import CDLL, c_int
+from ctypes import CDLL
 
 dll = CDLL("./sum_sub.dll")
 resultado = dll.sum(5,3)
